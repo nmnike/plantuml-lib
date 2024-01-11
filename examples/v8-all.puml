@@ -1,7 +1,55 @@
 @startuml
 
-!include ../v8/common.puml
-!include ../v8/all.puml
+!define v8 https://raw.githubusercontent.com/nmnike/plantuml-lib/master/v8
+
+!include v8/common.puml
+!include v8/v8_Catalog.puml
+!include v8/v8_Document.puml
+!include v8/v8_InfoRg.puml
+!include v8/v8_AccRg.puml
+!include v8/v8_Enum.puml
+
+!include v8/v8_Role.puml
+!include v8/v8_CommonAttribute.puml
+!include v8/v8_ExchangePlan.puml
+!include v8/v8_FilterCriteria.puml
+!include v8/v8_EventSubscription.puml
+!include v8/v8_ScheduledJob.puml
+!include v8/v8_Bot.puml
+!include v8/v8_FunctionalOption.puml
+!include v8/v8_FunctionalOptionsParameters.puml
+!include v8/v8_DefinedType.puml
+!include v8/v8_SettingsStorage.puml
+!include v8/v8_CommonCommand.puml
+!include v8/v8_CommandGroup.puml
+
+!include v8/v8_AccountingRg.puml
+!include v8/v8_BusinessProcess.puml
+!include v8/v8_CalculationRg.puml
+!include v8/v8_ChartOfAccounts.puml
+!include v8/v8_ChartOfCalculationTypes.puml
+!include v8/v8_ChartOfCharacteristicTypes.puml
+!include v8/v8_CommonForm.puml
+!include v8/v8_CommonPicture.puml
+!include v8/v8_Const.puml
+!include v8/v8_DataProcessor.puml
+!include v8/v8_DocumentJournal.puml
+!include v8/v8_ExternalDataSource.puml
+!include v8/v8_HttpService.puml
+!include v8/v8_IntegrationService.puml
+!include v8/v8_Language.puml
+!include v8/v8_Report.puml
+!include v8/v8_Style.puml
+!include v8/v8_StyleItem.puml
+!include v8/v8_Subsystem.puml
+!include v8/v8_Task.puml
+!include v8/v8_WebService.puml
+!include v8/v8_WsReference.puml
+!include v8/v8_XdtoPackage.puml
+
+!include v8/v8_CommonModule.puml
+!include v8/v8_SessionParameter.puml
+
 
 title 1С:Enterprise icons for PlantUML
 
